@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parta {
+    flex:1;
+}
+.seperator {
+    border-left: 0.5px solid #333;
+    height: 100vh;
+    margin: 0 20px; 
+}
+.logo {
+    height: 80px;
+    width: 80px;
+    position:absolute;
+    top: 40px;
+    left:40px;
+}
+.logo img{
+    height: 90%;
+    width: 90%;
+}
+.image img {
+    height: auto;
+    width: 100%;
+}
+.message{
+    position: absolute;
+    top:450px;
+    left:50px;
+    font-size:200%;
+    font-weight: 600;
+    color: black;
+    font-family: Facebook Sans Normal;
+}
+.message span span{
+    color:blue;
+}
+.partb{
+    flex: 1;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+.d-grid{
+    padding: 10px;
+    margin:10px;
+    border-radius: 60px;
+}
+    
+.entry{
+    margin: 0%;
+    padding: 30px;
+}
+
+.loginmess{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Facebook Sans Normal;
+    font-weight: 700;
+    font-size: large;
+}
+.loginmessbox{
+    height: 50px;
+}
+.newt { 
+    width: 100%;         
+    padding: 12px 0;     
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.line{
+    border-left: 0.5px solid #333;
+    margin: 0px; 
+}
