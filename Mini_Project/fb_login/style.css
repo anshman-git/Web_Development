@@ -9,11 +9,6 @@ body {
 .parta {
     flex:1;
 }
-.seperator {
-    border-left: 0.5px solid #333;
-    height: 100vh;
-    margin: 0 20px; 
-}
 .logo {
     height: 80px;
     width: 80px;
@@ -25,21 +20,32 @@ body {
     height: 90%;
     width: 90%;
 }
+.image{
+    padding:20px;
+    margin-left: 20px;
+}
 .image img {
-    height: auto;
+    height: 100%;
     width: 100%;
+    margin:10px;
+    padding: 50px;
 }
 .message{
     position: absolute;
     top:450px;
     left:50px;
-    font-size:200%;
-    font-weight: 600;
+    font-size:270%;
+    font-weight: 800;
     color: black;
     font-family: Facebook Sans Normal;
 }
 .message span span{
     color:blue;
+}
+.seperator {
+    border-left: 0.5px solid blueviolet;
+    height: 40rem;
+    margin: 0px; 
 }
 .partb{
     flex: 1;
@@ -47,26 +53,26 @@ body {
 .login{
     display: flex;
     flex-direction: column;
-    margin:0px;
+    margin:20px;
 }
-
 .d-grid{
     padding: 10px;
     margin:10px;
     border-radius: 60px;
 }
-    
 .entry{
     margin: 0%;
     padding: 30px;
 }
-
+.form-control{
+    border-radius: 30px;
+}
 .loginmess{
-    display: flex;
-    justify-content: flex-start;
+    margin: 10px;
     font-family: Facebook Sans Normal;
     font-weight: 700;
     font-size: large;
+
 }
 .loginmessbox{
     height: 50px;
@@ -77,8 +83,66 @@ body {
     font-size: 16px;
     border-radius: 20px;
     cursor: pointer;
+    border-color: black;
+    background-color: white;
+}
+.log{
+    width: 100%;         
+    padding: 12px 0;     
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+
 }
 .line{
-    border-left: 0.5px solid #333;
-    margin: 0px; 
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+.lessline, .lesslogo {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .main {
+        flex-direction: column;
+    }
+    .parta, .seperator {
+        display: none;
+    }
+    .lesslogo {
+        display: block;
+        height: 80px;
+        width: 80px;
+        margin-top: 30px;
+    }
+    .lesslogo img{
+        height: 90%;
+        width: 90%;
+    }
+    .lessline{
+        display: block;
+        border: 0.5px solid blueviolet;
+        width: 40rem;
+        margin: 0px;
+    }
+
+    .main{
+        flex: 1 1 100%;
+    }
+}
+.f a{
+    text-decoration: none;
+}
+.f {
+    word-spacing: 30px;
+    margin-left:100px
+}
+.lin{
+    margin: 0px;
+    color: blueviolet;
+}
+.last{
+    word-spacing: normal;
 }
