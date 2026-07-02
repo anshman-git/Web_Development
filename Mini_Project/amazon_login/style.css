@@ -1,0 +1,41 @@
+.block-a > div {
+    /* display: flex; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    padding:20px;
+}
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+.box {
+    border: 1px solid aqua;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+}
+.box > div {
+    margin:10px;
+}
+
+.Continue {
+    background-color: yellow;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.email {
+    display: block;
+    width: 100%;
+}
