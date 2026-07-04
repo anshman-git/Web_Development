@@ -20,11 +20,10 @@
     border: 1px solid aqua;
     display: flex;
     justify-content: center; 
+    /* align-items: center; */
     flex-direction: column;
     width: 400px;
     border-radius: 10px;
-}
-.box > div {
     margin:10px;
 }
 
@@ -39,9 +38,12 @@
     display: block;
     width: 100%;
 }
-.secc{
-    
+body{
+    font-family: "Amazon Ember", Arial, sans-serif;
 }
-.copy{
-
+h1{
+    font-size: 28px;
+}
+.new {
+    margin:20px;
 }
