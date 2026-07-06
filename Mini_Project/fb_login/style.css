@@ -83,8 +83,9 @@ body {
     font-size: 16px;
     border-radius: 20px;
     cursor: pointer;
-    border-color: black;
+    border-color: blueviolet;
     background-color: white;
+    color: blueviolet;
 }
 .log{
     width: 100%;         
@@ -145,4 +146,10 @@ body {
 }
 .last{
     word-spacing: normal;
+}
+.meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
 }
