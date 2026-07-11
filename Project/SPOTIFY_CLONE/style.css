@@ -9,13 +9,14 @@ body {
 .main {
     display: flex;
     height:100vh;
-     
+    padding: 0.5rem;
 }
 
 .sidebar {
     background-color: #000000;
-    width: 340px;
+    width: 350px;
     border-radius: 1rem;
+    margin:0 0.5rem 0 0;
 }
 
 .main-content {
@@ -66,3 +67,67 @@ a {
     font-size: 1rem;
     margin-left: 1rem;
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    opacity: 1;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-options img {
+    height: 1.5rem;
+    width:1.25rem;
+}
+
+.icons {
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.box {
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 1rem 1.25rem;
+}
+
+.box-p-1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width:fit-content;
+}
+
