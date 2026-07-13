@@ -145,6 +145,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons {
@@ -172,10 +173,12 @@ a {
     width: 150px;
     border-radius:0.5rem;
     padding: 1rem;
+    margin-left: 1rem;
 }
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-img {
@@ -191,4 +194,52 @@ a {
 .card-info {
     font-size: 0.85rem;
     opacity: 0.5;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity:0.4;
+}
+
+.music-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album {
+    width:25%;
+}
+
+.player {
+    width: 50%;
+}
+
+.controls {
+    width: 25%;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+}
+
+.player-control-icon:hover {
+    opacity: 1;
 }
