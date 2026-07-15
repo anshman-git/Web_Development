@@ -4,10 +4,10 @@
 // Print, [7, 9, 0]
 
 //solution
-let arr = [1,2,3,4,5];
-let n = 3;
-let res = arr.slice(0,n);
-console.log(res);
+// let arr = [1,2,3,4,5];
+// let n = 3;
+// let res = arr.slice(0,n);
+// console.log(res);
 
 
 // Qs2. Write a JavaScript program to get the last n elements of an array. [n can be any
