@@ -1,8 +1,14 @@
 // Q1. Write an arrow function named arrayAverage that accepts an array of
 // numbers and returns the average of those numbers.
+const arrayAverage = numbers => {
+    if (!numbers.length) return 0;
+    const sum = numbers.reduce((total, num) => total + num, 0);
+    return sum / numbers.length;
+};
 
 // Q2. Write an arrow function named isEven that accepts a single number and
 // returns true if the number is even; otherwise, it returns false.
+const isEven = number => number % 2 === 0;
 
 // Q3. What is the output of the following code?
 const object = {
